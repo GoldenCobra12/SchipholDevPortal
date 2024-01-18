@@ -33,8 +33,8 @@
             <SenderPipe name="SendToFlightApi1" storeResultInSessionKey="PageResult">
                 <HttpSender name="SendToFlightApi" methodType="GET"
                     headersParams="app_id, app_key, Accept, ResourceVersion">
-                    <Param name="app_id" value="6bed5bd4" />
-                    <Param name="app_key" value="cba1364a98878f6673adceae7b471614" />
+                    <Param name="app_id" value="${appId}" />
+                    <Param name="app_key" value="${appKey}" />
                     <Param name="Accept" value="application/json" />
                     <Param name="ResourceVersion" value="v4" />
                     <Param name="page" sessionKey="PageNum" />
@@ -113,8 +113,8 @@
             <SenderPipe name="SendToFlightApi1" storeResultInSessionKey="PageResult">
                 <HttpSender name="SendToFlightApi" methodType="GET"
                     headersParams="app_id, app_key, Accept, ResourceVersion">
-                    <Param name="app_id" value="6bed5bd4" />
-                    <Param name="app_key" value="cba1364a98878f6673adceae7b471614" />
+                    <Param name="app_id" value="${appId}" />
+                    <Param name="app_key" value="${appKey}" />
                     <Param name="Accept" value="application/json" />
                     <Param name="ResourceVersion" value="v4" />
                     <Param name="page" sessionKey="PageNum" />
